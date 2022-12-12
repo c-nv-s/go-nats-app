@@ -3,14 +3,14 @@ module go-nats-app
 go 1.19
 
 require (
-	github.com/go-chi/chi/v5 v5.0.7
+	github.com/go-chi/chi/v5 v5.0.8
 	github.com/goombaio/namegenerator v0.0.0-20181006234301-989e774b106e
 	github.com/magefile/mage v1.14.0
 	github.com/maxence-charriere/go-app/v9 v9.6.7
-	github.com/nats-io/nats-server/v2 v2.9.8
-	github.com/nats-io/nats.go v1.20.0
+	github.com/nats-io/nats-server/v2 v2.9.9
+	github.com/nats-io/nats.go v1.21.0
 	github.com/o1egl/govatar v0.4.1
-	golang.org/x/net v0.2.0
+	golang.org/x/net v0.4.0
 	nhooyr.io/websocket v1.8.7
 )
 
@@ -21,7 +21,8 @@ require (
 	github.com/nats-io/jwt/v2 v2.3.0 // indirect
 	github.com/nats-io/nkeys v0.3.0 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
+	go.uber.org/automaxprocs v1.5.1 // indirect
 	golang.org/x/crypto v0.3.0 // indirect
-	golang.org/x/sys v0.2.0 // indirect
+	golang.org/x/sys v0.3.0 // indirect
 	golang.org/x/time v0.2.0 // indirect
 )
